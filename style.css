@@ -28,6 +28,16 @@ body {
     align-items: center;
 }
 
+.home {
+    text-align: center;
+    text-size-adjust: 100%;
+}
+
+.follow {
+    text-align: center;
+    text-decoration: none;
+}
+
 .card {
     width: 40%;
     border: 1px solid white;
