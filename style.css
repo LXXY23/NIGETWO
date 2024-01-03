@@ -38,6 +38,12 @@ body {
     text-decoration: none;
 }
 
+.jadwal {
+    background: rgba(33, 33, 33, 0.09);
+    align-items: center;
+   text-align: center;
+}
+
 .card {
     width: 40%;
     border: 1px solid white;
@@ -65,7 +71,7 @@ body {
 
 .nuha {
     background: rgba(33, 33, 33, 0.09);
-    border-radius: 50px;
+    border-radius: 35px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(11.1px);
     -webkit-backdrop-filter: blur(11.1px);
