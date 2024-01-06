@@ -69,6 +69,10 @@ body {
     font-size: 1em;
 }
 
+.align-right {
+    text-align: right;
+}
+
 .nuha {
     background: rgba(33, 33, 33, 0.09);
     border-radius: 35px;
@@ -150,6 +154,29 @@ body {
     color: var(--txt-primary);
     transition: 0.3s ease-in-out;
 }
+
+.cool-box {
+    width: auto;
+    border: 1px solid white;
+    background-color: var(--bg-secondary);
+    color: var(--txt-secondary);
+    padding: 32px;
+    margin: 8px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+
+.cool-box h1 {
+    color: var(--bg-primary);
+    font-size: 2em;
+    margin-bottom: 1px;
+}
+
+.cool-box p {
+    color: #555;
+    font-size: 1.2em;
+}
+
 
 
 @media screen and (max-width: 450px) {
